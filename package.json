@@ -1,0 +1,25 @@
+{
+    "name": "linebot-meris",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon — exec babel-node index.js & lt -p 3000"
+    },
+    "keywords": [],
+    "author": "",
+    "type": "module",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/node": "^7.15.4",
+        "@babel/preset-env": "^7.15.6",
+        "@line/bot-sdk": "^7.4.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13"
+    }
+}
